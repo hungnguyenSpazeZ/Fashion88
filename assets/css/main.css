@@ -1,0 +1,304 @@
+@import url(//db.onlinewebfonts.com/c/09d57d76383244264b7bdef717efcb36?family=Gotham+HTF+Book);
+@import url(//db.onlinewebfonts.com/c/a05b8eca8c7460cfd711deddc20e2603?family=GothamHTF-Bold);
+@font-face {font-family: "Gotham HTF Book"; src: url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.eot"); src: url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.woff") format("woff"), url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/09d57d76383244264b7bdef717efcb36.svg#Gotham HTF Book") format("svg"); }
+@font-face {font-family: "GothamHTF-Bold"; src: url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.eot"); src: url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.woff") format("woff"), url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a05b8eca8c7460cfd711deddc20e2603.svg#GothamHTF-Bold") format("svg"); }
+
+.font1 {
+    font-family: Gotham HTF Book, sans-serif ;
+}
+
+.font2 {
+    font-family: GothamHTF-Bold, sans-serif ;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+.app {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 856px;
+    position: relative;
+    background-image:url(../img/Untitled-1..jpg)
+}
+
+.header__navbar {
+    position: absolute;
+    top: 168px;
+    left: 48px;
+}
+
+.header__navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__navbar-list-element {
+    padding: 18px 4px;
+    font-size: 14.3px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.header__navbar-list-element:hover  {
+    cursor: pointer;
+    
+    background-color: black;
+}
+
+.header__navbar-list-element:hover a {
+    color: white;
+}
+
+.header__navbar-list-element > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__text {
+    position: absolute;
+    margin: auto;
+    top: 374px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__text > p {
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: 14px;
+}
+
+.container {
+    height: 1078px;
+    width: 100%;
+    
+}
+
+.container__box-one {
+    height: 724px;    
+    display: flex;
+}
+
+.box__wrap {
+    width: 50%;
+    position: relative;
+}
+
+.box__wrap:first-child {
+    background-image: url(../img/Untitled-2.jpg);
+}
+
+.box__wrap:last-child {
+    background-image: url(../img/Untitled-3.jpg);
+}
+
+.box__wrap-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.text-left {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.text-right, .text-right-sub {
+    text-align: center;
+}
+
+.text-right {
+    font-size: 60px;
+    color: white;
+
+}
+
+.text-right-sub {
+    font-size: 30px;
+    color: white;
+
+}
+
+.container__box-two {
+    height: 66px;
+}
+
+.box-two-text {
+    text-align: center;
+    line-height: 66px;
+    font-size: 17.3px;
+}
+
+.container__box-three {
+    display: flex;
+    height: 290px;
+}
+
+.box-three-item {
+    flex: 1;
+}
+
+.box-three-item:nth-child(1) {
+    background-image: url(../img/Untitled-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-three-item:nth-child(2) {
+    background-image: url(../img/Untitled-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box-three-item:nth-child(3) {
+    background-image: url(../img/Untitled-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box-three-item:nth-child(4) {
+    background-image: url(../img/Untitled-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box-three-item:nth-child(5) {
+    background-image: url(../img/Untitled-9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    height: 342px;
+    position: relative;
+}
+
+.footer__box-one {
+    position: absolute;
+    left: 62px;
+    top: 50px;
+}
+.footer__box-one-text p {
+    font-size: 17.3px;
+    margin: 0;
+}
+
+.input {
+    width: 488px;
+    height: 48px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+    padding: 0;
+}
+.input-button {
+    width: 48px;
+    height: 46px;
+    
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+    padding: 0 0 2px 0;
+    background-color: black;
+    
+}
+
+.input-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17.3px;
+    font-weight: 800;
+}
+
+.input-button:hover  {
+    cursor: pointer;
+    background-color: red;
+}
+.footer__box-one-social-network {
+    display: flex;
+}
+.sociacl-network-link {
+    color: black;
+}
+
+.sociacl-network-link:hover {
+    color: gray;
+}
+.social-network-icon {
+    padding: 0 15px;
+    font-size: 32px;
+}
+.footer__box-two {
+    position: absolute;
+    right: 98px;
+    top: 56px;
+
+}
+.footer__box-two-heading {
+    font-size: 17.3px;
+}
+
+.sub-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sub-list-item {    
+    margin-top: 10px;
+    line-height: 14px;
+}
+.sub-list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 12.3px;
+    font-weight: 600;
+}
+.sub-list-item:hover a {
+    color: gray;
+}
+.footer__box-three {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 67px;
+}
+.footer__box-three-text {
+    display: inline-block;
+    font-size: 10.78px;
+    font-weight: 600;
+    position: relative;
+    padding: 0 14px;
+}
+
+.footer__box-three-text:hover a {
+    color: gray;
+}
+
+.footer__box-three-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-seperation::after {
+    content: "";
+    display: block;
+    position: absolute;
+   background-color: black;
+   width: 1px;
+   height: 12px;
+   left: -3px;
+   top: 1px;
+}
